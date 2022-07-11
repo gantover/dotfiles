@@ -1,0 +1,7 @@
+[user]
+	name = Damian Hubert
+	email = damian.hubert@ulb.be
+[core]
+	editor = nvim
+[pull]
+	ff = true
