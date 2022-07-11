@@ -1,0 +1,24 @@
+artix,xorg-server, 
+artix,xorg-xwininfo, 
+artix,xorg-xinit, 
+artix,xorg-xprop, 
+artix,picom, 
+artix,polkit, manages user policies 
+artix,arandr,  
+artix,libnotify, allows desktop notifications
+artix,dosfstools,for dos file systems
+artix,exfat-utils, for fat file systems
+artix,feh, image viewer and more
+artix,ueberzug, terminal image viewer
+artix,neovim, 
+artix,man-db, man pages for programs
+artix,maim, screenshots
+artix,unzip, 
+artix,xclip, copy and paste from the command-line
+artix,zathura, 
+artix,zathura-pdf-mupdf, 
+artix,xorg-xbacklight, to change screen brightness
+artix,zsh, 
+artix,zsh-completions, 
+artix,htop, 
+artix,fzf, fuzzy finder
