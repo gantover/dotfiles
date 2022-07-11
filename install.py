@@ -3,14 +3,6 @@ root = "doas"
 import os
 import artix
 import gentoo
-"""
-try:
-    import py_cui
-except:
-    os.system(f"doas -u {user} pip install --user py_cui")
-    print("had to install dep, reload")
-    quit()
-"""
 
 def get_user():
     users = os.popen("grep /bin/bash /etc/passwd").readlines()
@@ -58,21 +50,9 @@ def dot_files():
     os.system(f"{root} -u {user} stow /home/{user}/.dotfiles/main")
 
 
-
 is_root()
 kernel = get_os()
 user = get_user()
 sl_install("https://github.com/gantover/sl_progs.git")
 dot_files()
 read_progs()
-
-
-
-"""
-root = py_cui.PyCUI(7, 9)
-label = root.add_label('Label Text', 0, 0)
-button = root.add_button('Button Text', 1, 2, column_span=2, command=my_function)
-button = root.add_button('Button Text', 2, 2, column_span=2, command=my_function)
-checkbox = root.add_checkbox_menu(title="hello", row=3, column=2, checked_char="X",)
-root.start()
-"""
