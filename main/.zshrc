@@ -54,4 +54,5 @@ alias \
 	cs="source $HOME/documents/scripts/tiny/select_course"
 
 # LAST LINE !!!, Syntax highlighting
-source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh > /dev/null
+# on gentoo : source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh > /dev/null
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh > /dev/null

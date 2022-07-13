@@ -22,3 +22,4 @@ artix,zsh,
 artix,zsh-completions, 
 artix,htop, 
 artix,fzf, fuzzy finder
+artix,texlive-most, latex

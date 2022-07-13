@@ -1,11 +1,11 @@
 #!/usr/bin/python
-root = "doas"
+root = "sudo"
 import os
 import artix
 import gentoo
 
 def get_user():
-    users = os.popen("grep /bin/bash /etc/passwd").readlines()
+    users = os.popen("grep /bin/sh /etc/passwd").readlines()
     if len(users) > 2:
         print("This program only works with one users defined")
         quit()
@@ -34,7 +34,7 @@ def sl_install(url):
     a = os.listdir(f"/home/{user}/documents/sl_progs/")
     for path in a:
         if path != ".git":
-            os.system(f"make clean install -C /home/{user}/documents/sl_progs/{path}/")
+            os.system(f"make clean install -C /home/{user}/documents/sl_progs/{path}/ > /dev/null")
 
 def read_progs():
     f = open("progs.txt","r").readlines()
