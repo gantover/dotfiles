@@ -1,0 +1,6 @@
+[2022-07-15 14:44:58.340] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-07-15 14:45:00.682] [main] [info] Starting extension host with pid 13176 (fork() took 17 ms).
+[2022-07-15 14:46:42.186] [main] [info] Extension host with pid 13176 exited with code: 0, signal: null.
+[2022-07-15 14:46:44.279] [main] [info] Starting extension host with pid 13349 (fork() took 13 ms).
+[2022-07-15 14:51:24.891] [main] [info] Waiting for extension host with pid 13349 to exit.
+[2022-07-15 14:51:25.385] [main] [info] Extension host with pid 13349 exited with code: 0, signal: null.

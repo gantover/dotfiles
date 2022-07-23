@@ -1,0 +1,65 @@
+[2022-07-15 14:45:02.607] [exthost] [info] Extension host with pid 13176 started
+[2022-07-15 14:45:03.006] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-15 14:45:03.033] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-15 14:45:03.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-15 14:45:03.173] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-15 14:45:03.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-15 14:45:03.428] [exthost] [info] Eager extensions activated
+[2022-07-15 14:45:03.444] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:45:03.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:45:24.098] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-15 14:45:24.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-15 14:45:24.259] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-15 14:45:55.437] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:45:55.520] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:45:59.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-07-15 14:46:42.135] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-15 14:46:42.164] [exthost] [info] Extension host with pid 13176 exiting with code 0
+[2022-07-15 14:46:45.621] [exthost] [info] Extension host with pid 13349 started
+[2022-07-15 14:46:45.621] [exthost] [info] Skipping acquiring lock for /home/damian/.config/Code - OSS/User/workspaceStorage/da63bd17fd7f6d1d66cc1447d6b09a7c.
+[2022-07-15 14:46:45.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-15 14:46:45.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-07-15 14:46:45.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-15 14:46:45.757] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-15 14:46:45.764] [exthost] [info] Eager extensions activated
+[2022-07-15 14:46:45.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:46:45.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:46:45.776] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:46:48.190] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-07-15 14:46:48.232] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-15 14:46:49.433] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-15 14:46:49.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-15 14:46:49.475] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-15 14:46:49.518] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-15 14:49:02.550] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: '*'
+[2022-07-15 14:50:51.914] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-15 14:51:24.828] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-15 14:51:25.352] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/damian/.vscode-oss/extensions/vscodevim.vim-1.23.1/src/register/register.ts:326:30)
+    at Object.e.deactivate (/home/damian/.vscode-oss/extensions/vscodevim.vim-1.23.1/extension.ts:65:18)
+    at w._deactivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:13087)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:10645
+    at Array.map (<anonymous>)
+    at w._deactivateAll (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:10632)
+    at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:11014)
+    at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+    at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:36671)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:34616
+    at w.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+    at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+    at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+    at a.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+    at r._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+    at w.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+    at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+    at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+    at p.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+    at Socket.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-07-15 14:51:25.355] [exthost] [info] Extension host with pid 13349 exiting with code 0

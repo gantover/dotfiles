@@ -1,5 +1,5 @@
 #!/usr/bin/python
-root = "sudo"
+root = "doas"
 import os
 import artix
 import gentoo
@@ -27,7 +27,7 @@ def get_os():
     print("os not compatible")
     quit()
 
-def sl_install(url):
+def sl_install(url,user):
     # will clone my repo of suckless utilities and install them
     os.system(f"{root} -u {user} mkdir -p /home/{user}/documents/sl_progs/")
     os.system(f"{root} -u {user} git clone {url} /home/{user}/documents/sl_progs/")
@@ -36,7 +36,7 @@ def sl_install(url):
         if path != ".git":
             os.system(f"make clean install -C /home/{user}/documents/sl_progs/{path}/ > /dev/null")
 
-def read_progs():
+def read_progs(kernel):
     f = open("progs.txt","r").readlines()
     for x in f:
         elems = x.split(",")
@@ -46,13 +46,21 @@ def read_progs():
         elif elems[0] == "gentoo" and kernel == "gentoo":
             gentoo.install(elems[1])
 
-def dot_files():
+def dot_files(user):
     os.system(f"{root} -u {user} stow /home/{user}/.dotfiles/main")
+
+repos = ["courses", "scripts", "templates", "projects"]
+def clone():
+    for repo in repos:
+        os.system(f"{root} -u {user} git clone git@github.com:gantover/{repo}.git /home/{user}/documents/")
+    
 
 
 is_root()
 kernel = get_os()
 user = get_user()
-sl_install("https://github.com/gantover/sl_progs.git")
-dot_files()
-read_progs()
+sl_install("https://github.com/gantover/sl_progs.git",user)
+dot_files(user)
+read_progs(kernel)
+artix.add_arch_repo(root)
+

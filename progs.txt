@@ -19,7 +19,7 @@ artix,zathura,
 artix,zathura-pdf-mupdf, 
 artix,xorg-xbacklight, to change screen brightness
 artix,zsh, 
-artix,zsh-completions, 
 artix,htop, 
 artix,fzf, fuzzy finder
 artix,texlive-most, latex
+artix,openssh, ssh connection by openbsd

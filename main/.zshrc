@@ -29,10 +29,10 @@ export PATH="/home/damian/.local/bin:$PATH"
 root="doas"
 
 # Aliases
+	# ek="cd /usr/src/linux && $root make menuconfig" \
+	# sync="$root emerge --sync" \
+	# update="$root emerge -uUDq @world" \
 alias \
-	ek="cd /usr/src/linux && $root make menuconfig" \
-	sync="$root emerge --sync" \
-	update="$root emerge -uUDq @world" \
 	untar="tar -zxvf" \
 	sha="shasum -a 256" \
 	lspkgs="qlist -IRv >> packages && nvim packages" \
@@ -48,10 +48,11 @@ alias \
 	ccat="highlight --out-format=ansi" \
 	sdn="$root shutdown -h now" \
 	courses="cd ~/documents/courses" \
-	lc="source $HOME/documents/scripts/tiny/last_course.sh" \
-	td="source $HOME/documents/scripts/tiny/edit_tex.sh" \
-	fortx="$HOME/documents/scripts/big/format_tex/format_tex" \
-	cs="source $HOME/documents/scripts/tiny/select_course"
+	lc="source $HOME/documents/scripts/last_course" \
+	td="source $HOME/documents/scripts/lvim_tex" \
+	fortx="$HOME/documents/scripts/format_tex" \
+	cs="source $HOME/documents/scripts/select_course" \
+  tex_init="$HOME/documents/scripts/init_tex"
 
 # LAST LINE !!!, Syntax highlighting
 # on gentoo : source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh > /dev/null
