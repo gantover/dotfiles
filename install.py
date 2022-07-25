@@ -59,8 +59,8 @@ def clone():
 is_root()
 kernel = get_os()
 user = get_user()
-sl_install("https://github.com/gantover/sl_progs.git",user)
-dot_files(user)
-read_progs(kernel)
+#sl_install("https://github.com/gantover/sl_progs.git",user)
+#dot_files(user)
+#read_progs(kernel)
 artix.add_arch_repo(root)
 
