@@ -25,8 +25,8 @@ def add_arch_repo(root):
     file = open("/etc/pacman.conf","w")
     file.writelines(lines)
     file.close()
-    os.system(f"{root} pacman -Syu")
-    os.system(f"{root} pacman -S artix-archlinux-support")
+    os.system(f"pacman -Syu")
+    os.system(f"pacman -S artix-archlinux-support")
     file = open("/etc/pacman.conf","r+")
     lines = file.readlines()
     lines[mark+10:mark+10] = ["\n",
@@ -39,4 +39,4 @@ def add_arch_repo(root):
     file.close()
     file = open("/etc/pacman.conf","w")
     file.writelines(lines)
-    os.system(f"{root} pacman-key --populate archlinux")
+    os.system(f"pacman-key --populate archlinux")
